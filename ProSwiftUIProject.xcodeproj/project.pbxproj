@@ -11,6 +11,9 @@
 		8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959732A1B4AD4000EE695 /* ContentView.swift */; };
 		8A9959762A1B4AD6000EE695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9959752A1B4AD6000EE695 /* Assets.xcassets */; };
 		8A9959792A1B4AD6000EE695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9959782A1B4AD6000EE695 /* Preview Assets.xcassets */; };
+		8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */; };
+		8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */; };
+		8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8A9959732A1B4AD4000EE695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A9959752A1B4AD6000EE695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A9959782A1B4AD6000EE695 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCircleTransitions.swift; sourceTree = "<group>"; };
+		8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingTheUnanimatable.swift; sourceTree = "<group>"; };
+		8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */,
 				8A9959732A1B4AD4000EE695 /* ContentView.swift */,
+				8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */,
+				8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */,
+				8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */,
 				8A9959752A1B4AD6000EE695 /* Assets.xcassets */,
 				8A9959772A1B4AD6000EE695 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */,
+				8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */,
+				8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */,
 				8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */,
+				8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

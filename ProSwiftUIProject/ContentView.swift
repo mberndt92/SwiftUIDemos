@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var id = UUID()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                NavigationLink("Sports Circle Transition") {
+                    SportsCircleTransitions()
+                }
+                
+                NavigationLink("Animating zIndex") {
+                    AnimatingTheUnanimatable()
+                }
+                
+                NavigationLink("Animating Font") {
+                    AnimatingFont()
+                }
+            }
         }
-        .padding()
     }
 }
 
