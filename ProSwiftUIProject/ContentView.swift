@@ -9,20 +9,55 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var id = UUID()
+    enum Projects: String, CaseIterable {
+        case SportsCircleTransition = "Sports Circle Transition"
+        case AnimatingZIndex = "Animating zIndex"
+        case AnimatingFontView = "Animating Font"
+        case AnimatingNumbersWithFractions = "Animating Numbers with Fractions"
+        case AnimatedTypeWriter = "Animated TypeWriter"
+        case EdgeBounceView = "Edge Bounce"
+        case WithMotionAnimationView = "With Motion Animation"
+        case TwitterHeartAnimationView = "Twitter Hear Animation"
+        case RequiredTextView = "Required Text"
+        case StrokeWidthPlusFontEnvKey = "Stroke Width + Font (Env Key)"
+        case StrokeWidthPlusFontEnvObject = "Stroke Width + Font (Env Object)"
+        case PreferenceKey = "Preference Key"
+        case AnchorPreferenceAirBnBAnimation = "Anchor Preference (AirBnB Animation)"
+        case AdaptiveLayoutView = "Adaptive Layout"
+        case RadialLayoutView = "Radial Layout"
+        case EqualWidthHStack = "Equal Width HStack"
+        
+        @ViewBuilder
+        func view() -> some View {
+            switch self {
+            case .AdaptiveLayoutView: AdaptiveLayout()
+            case .AnchorPreferenceAirBnBAnimation: AnchorPreferenceView()
+            case .AnimatedTypeWriter: AnimatableTypeWriter()
+            case .AnimatingFontView: AnimatingFont()
+            case .AnimatingNumbersWithFractions: AnimatableFractions()
+            case .AnimatingZIndex: AnimatingTheUnanimatable()
+            case .EdgeBounceView: EdgeBounce()
+            case .EqualWidthHStack: EqualWidthHStackProject()
+            case .PreferenceKey: PreferenceKeyView()
+            case .RadialLayoutView: CustomRadialLayout()
+            case .RequiredTextView: RequiredText()
+            case .SportsCircleTransition: SportsCircleTransitions()
+            case .StrokeWidthPlusFontEnvKey: StrokeWidthShapes()
+            case .StrokeWidthPlusFontEnvObject: StrokeWidthShapesEnvObject()
+            case .TwitterHeartAnimationView: TwitterHeartAnimation()
+            case .WithMotionAnimationView: WithMotionAnimation()
+            }
+        }
+    }
+    
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Sports Circle Transition") {
-                    SportsCircleTransitions()
-                }
-                
-                NavigationLink("Animating zIndex") {
-                    AnimatingTheUnanimatable()
-                }
-                
-                NavigationLink("Animating Font") {
-                    AnimatingFont()
+                ForEach(Projects.allCases, id: \.self) { view in
+                    NavigationLink(view.rawValue) {
+                        view.view()
+                            .navigationTitle(view.rawValue)
+                    }
                 }
             }
         }

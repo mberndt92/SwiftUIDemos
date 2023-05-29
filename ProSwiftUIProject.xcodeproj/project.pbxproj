@@ -13,7 +13,22 @@
 		8A9959792A1B4AD6000EE695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9959782A1B4AD6000EE695 /* Preview Assets.xcassets */; };
 		8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */; };
 		8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */; };
+		8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */; };
+		8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */; };
+		8A9DCDB32A24135A00789B39 /* EqualWidthHStackProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */; };
 		8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */; };
+		8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */; };
+		8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */; };
+		8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */; };
+		8AD6DD532A1C34BE008DA3AC /* EaseInOutBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */; };
+		8AD6DD552A1D923C008DA3AC /* WithMotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */; };
+		8AD6DD572A1D9936008DA3AC /* TwitterHeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */; };
+		8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */; };
+		8AD6DD752A1EC7DE008DA3AC /* StrokeWidthShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */; };
+		8AD6DD792A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */; };
+		8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */; };
+		8AD6DD932A20B1D3008DA3AC /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */; };
+		8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +39,22 @@
 		8A9959782A1B4AD6000EE695 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCircleTransitions.swift; sourceTree = "<group>"; };
 		8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingTheUnanimatable.swift; sourceTree = "<group>"; };
+		8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayout.swift; sourceTree = "<group>"; };
+		8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadialLayout.swift; sourceTree = "<group>"; };
+		8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthHStackProject.swift; sourceTree = "<group>"; };
 		8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingFont.swift; sourceTree = "<group>"; };
+		8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFractions.swift; sourceTree = "<group>"; };
+		8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTypeWriter.swift; sourceTree = "<group>"; };
+		8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBounce.swift; sourceTree = "<group>"; };
+		8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseInOutBack.swift; sourceTree = "<group>"; };
+		8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithMotionAnimation.swift; sourceTree = "<group>"; };
+		8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHeartAnimation.swift; sourceTree = "<group>"; };
+		8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredText.swift; sourceTree = "<group>"; };
+		8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeWidthShapes.swift; sourceTree = "<group>"; };
+		8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeWidthShapesEnvObject.swift; sourceTree = "<group>"; };
+		8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideEnvironment.swift; sourceTree = "<group>"; };
+		8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
+		8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreferenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +87,9 @@
 		8A9959702A1B4AD4000EE695 /* ProSwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
-				8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */,
+				8A9DCDB42A24137400789B39 /* Projects */,
 				8A9959732A1B4AD4000EE695 /* ContentView.swift */,
-				8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */,
-				8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */,
-				8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */,
+				8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */,
 				8A9959752A1B4AD6000EE695 /* Assets.xcassets */,
 				8A9959772A1B4AD6000EE695 /* Preview Content */,
 			);
@@ -74,6 +102,31 @@
 				8A9959782A1B4AD6000EE695 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A9DCDB42A24137400789B39 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */,
+				8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */,
+				8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */,
+				8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */,
+				8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */,
+				8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */,
+				8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */,
+				8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */,
+				8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */,
+				8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */,
+				8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */,
+				8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */,
+				8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */,
+				8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */,
+				8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */,
+				8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */,
+				8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */,
+				8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */,
+			);
+			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +199,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD6DD532A1C34BE008DA3AC /* EaseInOutBack.swift in Sources */,
+				8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */,
+				8AD6DD792A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift in Sources */,
 				8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */,
 				8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */,
+				8AD6DD572A1D9936008DA3AC /* TwitterHeartAnimation.swift in Sources */,
+				8AD6DD932A20B1D3008DA3AC /* PreferenceKeyView.swift in Sources */,
+				8AD6DD552A1D923C008DA3AC /* WithMotionAnimation.swift in Sources */,
+				8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */,
+				8AD6DD752A1EC7DE008DA3AC /* StrokeWidthShapes.swift in Sources */,
+				8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */,
+				8A9DCDB32A24135A00789B39 /* EqualWidthHStackProject.swift in Sources */,
 				8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */,
+				8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */,
+				8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */,
+				8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */,
+				8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */,
+				8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */,
 				8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */,
 				8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */,
 			);
