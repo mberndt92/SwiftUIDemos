@@ -16,6 +16,8 @@
 		8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */; };
 		8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */; };
 		8A9DCDB32A24135A00789B39 /* EqualWidthHStackProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */; };
+		8A9DCDB62A25673B00789B39 /* RelativeLayoutProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */; };
+		8A9DCDB82A256B0200789B39 /* MasonryLayoutProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DCDB72A256B0200789B39 /* MasonryLayoutProject.swift */; };
 		8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */; };
 		8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */; };
 		8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */; };
@@ -42,6 +44,8 @@
 		8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayout.swift; sourceTree = "<group>"; };
 		8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadialLayout.swift; sourceTree = "<group>"; };
 		8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthHStackProject.swift; sourceTree = "<group>"; };
+		8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeLayoutProject.swift; sourceTree = "<group>"; };
+		8A9DCDB72A256B0200789B39 /* MasonryLayoutProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryLayoutProject.swift; sourceTree = "<group>"; };
 		8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingFont.swift; sourceTree = "<group>"; };
 		8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFractions.swift; sourceTree = "<group>"; };
 		8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTypeWriter.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */,
 				8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */,
 				8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */,
+				8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */,
+				8A9DCDB72A256B0200789B39 /* MasonryLayoutProject.swift */,
 				8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */,
 				8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */,
 				8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */,
@@ -210,9 +216,11 @@
 				8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */,
 				8AD6DD752A1EC7DE008DA3AC /* StrokeWidthShapes.swift in Sources */,
 				8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */,
+				8A9DCDB82A256B0200789B39 /* MasonryLayoutProject.swift in Sources */,
 				8A9DCDB32A24135A00789B39 /* EqualWidthHStackProject.swift in Sources */,
 				8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */,
 				8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */,
+				8A9DCDB62A25673B00789B39 /* RelativeLayoutProject.swift in Sources */,
 				8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */,
 				8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */,
 				8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */,

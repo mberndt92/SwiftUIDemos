@@ -26,6 +26,8 @@ struct ContentView: View {
         case AdaptiveLayoutView = "Adaptive Layout"
         case RadialLayoutView = "Radial Layout"
         case EqualWidthHStack = "Equal Width HStack"
+        case RelativeWidthLayout = "Relative Width Layout"
+        case MasonryLayout = "Masonry Layout"
         
         @ViewBuilder
         func view() -> some View {
@@ -38,8 +40,10 @@ struct ContentView: View {
             case .AnimatingZIndex: AnimatingTheUnanimatable()
             case .EdgeBounceView: EdgeBounce()
             case .EqualWidthHStack: EqualWidthHStackProject()
+            case .MasonryLayout: MasonryLayoutProject()
             case .PreferenceKey: PreferenceKeyView()
             case .RadialLayoutView: CustomRadialLayout()
+            case .RelativeWidthLayout: RelativeLayoutProject()
             case .RequiredTextView: RequiredText()
             case .SportsCircleTransition: SportsCircleTransitions()
             case .StrokeWidthPlusFontEnvKey: StrokeWidthShapes()
