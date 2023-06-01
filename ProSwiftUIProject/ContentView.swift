@@ -28,6 +28,10 @@ struct ContentView: View {
         case EqualWidthHStack = "Equal Width HStack"
         case RelativeWidthLayout = "Relative Width Layout"
         case MasonryLayout = "Masonry Layout"
+        case GlowingParticles = "Glowing Particles"
+        case FallingSnow = "Falling Snow"
+        case LavaLamp = "Lava Lamp"
+        case LavaLampMath = "Lava Lamp Math"
         
         @ViewBuilder
         func view() -> some View {
@@ -40,6 +44,10 @@ struct ContentView: View {
             case .AnimatingZIndex: AnimatingTheUnanimatable()
             case .EdgeBounceView: EdgeBounce()
             case .EqualWidthHStack: EqualWidthHStackProject()
+            case .FallingSnow: FallingSnowProject()
+            case .GlowingParticles: GlowingParticlesProject()
+            case .LavaLamp: LavaLampProject()
+            case .LavaLampMath: LavaLampMathProject()
             case .MasonryLayout: MasonryLayoutProject()
             case .PreferenceKey: PreferenceKeyView()
             case .RadialLayoutView: CustomRadialLayout()

@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct MasonryLayout: Layout {
+    struct Cache {
+        var frames: [CGRect]
+        var width = 0.0
+    }
+    
     var columns: Int
     var spacing: Double
     
@@ -23,18 +28,26 @@ struct MasonryLayout: Layout {
         self.spacing = spacing
     }
     
-    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout Cache) -> CGSize {
         let width = proposal.replacingUnspecifiedDimensions().width
         let viewFrames = frames(for: subviews, in: width)
         let bottomView = viewFrames.max { $0.maxY < $1.maxY } ?? .zero
+        
+        cache.frames = viewFrames
+        cache.width = width
+        
         return CGSize(width: width, height: bottomView.maxY)
     }
     
-    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
-        let viewFrames = frames(for: subviews, in: bounds.width)
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout Cache) {
+        
+        if cache.width != bounds.width {
+            cache.frames = frames(for: subviews, in: bounds.width)
+            cache.width = bounds.width
+        }
         
         for index in subviews.indices {
-            let frame = viewFrames[index]
+            let frame = cache.frames[index]
             let position = CGPoint(x: bounds.minX + frame.minX, y: bounds.minY + frame.minY)
             // anchor: .topLeading is default but adding it here explicitly for verbosity
             subviews[index].place(at: position, anchor: .topLeading, proposal: ProposedViewSize(frame.size))
@@ -72,6 +85,10 @@ struct MasonryLayout: Layout {
         }
         
         return viewFrames
+    }
+    
+    func makeCache(subviews: Subviews) -> Cache {
+        Cache(frames: [])
     }
 }
 

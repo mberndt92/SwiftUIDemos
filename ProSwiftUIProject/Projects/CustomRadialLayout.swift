@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct RadialLayout: Layout {
+    
+    var rollout = 0.0
+    
+    // with this, expanding happens --along-- the circle. - size that fits and place subviews called many times
+    // without it, animation goes outward from old to new position simply - bc rollout is just changed from 0 to 1 e.g
+    var animatableData: Double {
+        get { rollout }
+        set { rollout = newValue }
+    }
+    
     func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
-        proposal.replacingUnspecifiedDimensions()
+        return proposal.replacingUnspecifiedDimensions()
     }
     
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
         let radius = min(bounds.size.width, bounds.size.height) / 2
-        let angle = Angle.degrees(360 / Double(subviews.count)).radians
+        let angle = Angle.degrees(360 / Double(subviews.count)).radians * rollout
         
         for (index, subview) in subviews.enumerated() {
             let viewSize = subview.sizeThatFits(.unspecified)
@@ -33,9 +43,10 @@ struct RadialLayout: Layout {
 struct CustomRadialLayout: View {
     
     @State private var count = 16
+    @State private var isExpanded = false
     
     var body: some View {
-        RadialLayout {
+        RadialLayout(rollout: isExpanded ? 1 : 0) {
             ForEach(0..<count, id: \.self) { _ in
                 Circle()
                     .frame(width: 32, height: 32)
@@ -44,6 +55,12 @@ struct CustomRadialLayout: View {
         .safeAreaInset(edge: .bottom) {
             Stepper("Count: \(count)", value: $count.animation(), in: 0...36)
                 .padding()
+            
+            Button("Expand") {
+                withAnimation(.easeInOut(duration: 1)) {
+                    isExpanded.toggle()
+                }
+            }
         }
     }
 }
