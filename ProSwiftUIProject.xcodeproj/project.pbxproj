@@ -31,6 +31,8 @@
 		8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */; };
 		8AD6DD932A20B1D3008DA3AC /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */; };
 		8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */; };
+		8AF3CB612A2955D400738F4A /* BackgroundAnimationBlurProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */; };
+		8AF3CB632A29580B00738F4A /* SpriteKitProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */; };
 		8AF4D4022A26AFC800B1837B /* GlowingParticlesProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */; };
 		8AF4D4042A27DFC500B1837B /* FallingSnowProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */; };
 		8AF4D4062A27DFD700B1837B /* LavaLampProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */; };
@@ -63,6 +65,8 @@
 		8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideEnvironment.swift; sourceTree = "<group>"; };
 		8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreferenceView.swift; sourceTree = "<group>"; };
+		8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationBlurProject.swift; sourceTree = "<group>"; };
+		8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitProject.swift; sourceTree = "<group>"; };
 		8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingParticlesProject.swift; sourceTree = "<group>"; };
 		8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingSnowProject.swift; sourceTree = "<group>"; };
 		8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLampProject.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */,
 				8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */,
 				8AF4D4072A27EC4E00B1837B /* LavaLampMathProject.swift */,
+				8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */,
+				8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */,
 				8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */,
 				8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */,
 				8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */,
@@ -226,6 +232,7 @@
 				8AD6DD932A20B1D3008DA3AC /* PreferenceKeyView.swift in Sources */,
 				8AD6DD552A1D923C008DA3AC /* WithMotionAnimation.swift in Sources */,
 				8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */,
+				8AF3CB612A2955D400738F4A /* BackgroundAnimationBlurProject.swift in Sources */,
 				8AD6DD752A1EC7DE008DA3AC /* StrokeWidthShapes.swift in Sources */,
 				8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */,
 				8A9DCDB82A256B0200789B39 /* MasonryLayoutProject.swift in Sources */,
@@ -235,6 +242,7 @@
 				8A9DCDB62A25673B00789B39 /* RelativeLayoutProject.swift in Sources */,
 				8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */,
 				8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */,
+				8AF3CB632A29580B00738F4A /* SpriteKitProject.swift in Sources */,
 				8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */,
 				8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */,
 				8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */,

@@ -32,6 +32,8 @@ struct ContentView: View {
         case FallingSnow = "Falling Snow"
         case LavaLamp = "Lava Lamp"
         case LavaLampMath = "Lava Lamp Math"
+        case BackgroundBlob = "Background Blob"
+        case SpriteKit = "Sprite Kit"
         
         @ViewBuilder
         func view() -> some View {
@@ -42,6 +44,7 @@ struct ContentView: View {
             case .AnimatingFontView: AnimatingFont()
             case .AnimatingNumbersWithFractions: AnimatableFractions()
             case .AnimatingZIndex: AnimatingTheUnanimatable()
+            case .BackgroundBlob: BackgroundAnimationBlurProject()
             case .EdgeBounceView: EdgeBounce()
             case .EqualWidthHStack: EqualWidthHStackProject()
             case .FallingSnow: FallingSnowProject()
@@ -54,6 +57,7 @@ struct ContentView: View {
             case .RelativeWidthLayout: RelativeLayoutProject()
             case .RequiredTextView: RequiredText()
             case .SportsCircleTransition: SportsCircleTransitions()
+            case .SpriteKit: SpriteKitProject()
             case .StrokeWidthPlusFontEnvKey: StrokeWidthShapes()
             case .StrokeWidthPlusFontEnvObject: StrokeWidthShapesEnvObject()
             case .TwitterHeartAnimationView: TwitterHeartAnimation()
