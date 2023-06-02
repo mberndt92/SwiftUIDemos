@@ -13,7 +13,16 @@ struct ContentView: View {
         NavigationStack {
             List {
                 Section("Animations") {
-                    ForEach(Projects.animations(), id: \.self) { view in
+                    ForEach(AnimationProjects.allCases, id: \.self) { view in
+                        NavigationLink(view.rawValue) {
+                            view.view()
+                                .navigationTitle(view.rawValue)
+                        }
+                    }
+                }
+                
+                Section("Simple Drawings") {
+                    ForEach(SimpleDrawingProjects.allCases, id: \.self) { view in
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
@@ -22,7 +31,7 @@ struct ContentView: View {
                 }
                 
                 Section("Global Settings") {
-                    ForEach(Projects.globalSettings(), id: \.self) { view in
+                    ForEach(GlobalSettingsProjects.allCases, id: \.self) { view in
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
@@ -31,7 +40,7 @@ struct ContentView: View {
                 }
                 
                 Section("Custom Layouts") {
-                    ForEach(Projects.layouts(), id: \.self) { view in
+                    ForEach(CustomLayoutProjects.allCases, id: \.self) { view in
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
@@ -40,7 +49,7 @@ struct ContentView: View {
                 }
                 
                 Section("Drawing & Magic") {
-                    ForEach(Projects.drawings(), id: \.self) { view in
+                    ForEach(DrawingMagicProjects.allCases, id: \.self) { view in
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)

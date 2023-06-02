@@ -22,7 +22,7 @@
 		8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */; };
 		8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */; };
 		8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */; };
-		8AD6DD532A1C34BE008DA3AC /* EaseInOutBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */; };
+		8AD6DD532A1C34BE008DA3AC /* EaseInOutBackProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD522A1C34BE008DA3AC /* EaseInOutBackProject.swift */; };
 		8AD6DD552A1D923C008DA3AC /* WithMotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */; };
 		8AD6DD572A1D9936008DA3AC /* TwitterHeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */; };
 		8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */; };
@@ -34,6 +34,23 @@
 		8AF3CB612A2955D400738F4A /* BackgroundAnimationBlurProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */; };
 		8AF3CB632A29580B00738F4A /* SpriteKitProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */; };
 		8AF3CB652A29627C00738F4A /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB642A29627C00738F4A /* Projects.swift */; };
+		8AF3CB752A29645D00738F4A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB6B2A29645D00738F4A /* BlurView.swift */; };
+		8AF3CB762A29645D00738F4A /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB6C2A29645D00738F4A /* CheckerboardView.swift */; };
+		8AF3CB772A29645D00738F4A /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB6D2A29645D00738F4A /* ArcView.swift */; };
+		8AF3CB782A29645D00738F4A /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB6E2A29645D00738F4A /* TrapezoidView.swift */; };
+		8AF3CB792A29645D00738F4A /* ColorCyclingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB6F2A29645D00738F4A /* ColorCyclingCircleView.swift */; };
+		8AF3CB7A2A29645D00738F4A /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB702A29645D00738F4A /* FlowerView.swift */; };
+		8AF3CB7B2A29645D00738F4A /* ScreenBlenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB712A29645D00738F4A /* ScreenBlenderView.swift */; };
+		8AF3CB7C2A29645D00738F4A /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB722A29645D00738F4A /* ArrowView.swift */; };
+		8AF3CB7D2A29645D00738F4A /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB732A29645D00738F4A /* SpirographView.swift */; };
+		8AF3CB7E2A29645D00738F4A /* ColorCyclingRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB742A29645D00738F4A /* ColorCyclingRectangleView.swift */; };
+		8AF3CB862A29648000738F4A /* ButtonTransitionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB7F2A29648000738F4A /* ButtonTransitionAnimationView.swift */; };
+		8AF3CB872A29648000738F4A /* PresentationStyleAppearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB802A29648000738F4A /* PresentationStyleAppearView.swift */; };
+		8AF3CB882A29648000738F4A /* ScaleEffectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB812A29648000738F4A /* ScaleEffectButton.swift */; };
+		8AF3CB892A29648000738F4A /* PulsingButtonProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB822A29648000738F4A /* PulsingButtonProject.swift */; };
+		8AF3CB8A2A29648000738F4A /* SnakeHelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB832A29648000738F4A /* SnakeHelloWorldView.swift */; };
+		8AF3CB8B2A29648000738F4A /* AsymetricAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB842A29648000738F4A /* AsymetricAnimatedView.swift */; };
+		8AF3CB8C2A29648000738F4A /* CreditCardDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB852A29648000738F4A /* CreditCardDrag.swift */; };
 		8AF4D4022A26AFC800B1837B /* GlowingParticlesProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */; };
 		8AF4D4042A27DFC500B1837B /* FallingSnowProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */; };
 		8AF4D4062A27DFD700B1837B /* LavaLampProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */; };
@@ -57,7 +74,7 @@
 		8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFractions.swift; sourceTree = "<group>"; };
 		8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTypeWriter.swift; sourceTree = "<group>"; };
 		8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBounce.swift; sourceTree = "<group>"; };
-		8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseInOutBack.swift; sourceTree = "<group>"; };
+		8AD6DD522A1C34BE008DA3AC /* EaseInOutBackProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseInOutBackProject.swift; sourceTree = "<group>"; };
 		8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithMotionAnimation.swift; sourceTree = "<group>"; };
 		8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHeartAnimation.swift; sourceTree = "<group>"; };
 		8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredText.swift; sourceTree = "<group>"; };
@@ -69,6 +86,23 @@
 		8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationBlurProject.swift; sourceTree = "<group>"; };
 		8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitProject.swift; sourceTree = "<group>"; };
 		8AF3CB642A29627C00738F4A /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		8AF3CB6B2A29645D00738F4A /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		8AF3CB6C2A29645D00738F4A /* CheckerboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
+		8AF3CB6D2A29645D00738F4A /* ArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		8AF3CB6E2A29645D00738F4A /* TrapezoidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
+		8AF3CB6F2A29645D00738F4A /* ColorCyclingCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircleView.swift; sourceTree = "<group>"; };
+		8AF3CB702A29645D00738F4A /* FlowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		8AF3CB712A29645D00738F4A /* ScreenBlenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenBlenderView.swift; sourceTree = "<group>"; };
+		8AF3CB722A29645D00738F4A /* ArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		8AF3CB732A29645D00738F4A /* SpirographView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
+		8AF3CB742A29645D00738F4A /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
+		8AF3CB7F2A29648000738F4A /* ButtonTransitionAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTransitionAnimationView.swift; sourceTree = "<group>"; };
+		8AF3CB802A29648000738F4A /* PresentationStyleAppearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyleAppearView.swift; sourceTree = "<group>"; };
+		8AF3CB812A29648000738F4A /* ScaleEffectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleEffectButton.swift; sourceTree = "<group>"; };
+		8AF3CB822A29648000738F4A /* PulsingButtonProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsingButtonProject.swift; sourceTree = "<group>"; };
+		8AF3CB832A29648000738F4A /* SnakeHelloWorldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeHelloWorldView.swift; sourceTree = "<group>"; };
+		8AF3CB842A29648000738F4A /* AsymetricAnimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsymetricAnimatedView.swift; sourceTree = "<group>"; };
+		8AF3CB852A29648000738F4A /* CreditCardDrag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardDrag.swift; sourceTree = "<group>"; };
 		8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingParticlesProject.swift; sourceTree = "<group>"; };
 		8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingSnowProject.swift; sourceTree = "<group>"; };
 		8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLampProject.swift; sourceTree = "<group>"; };
@@ -126,34 +160,91 @@
 		8A9DCDB42A24137400789B39 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */,
-				8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */,
-				8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */,
+				8AF3CB6A2A2963D200738F4A /* Global Settings */,
+				8AF3CB692A2963CC00738F4A /* Layouts */,
+				8AF3CB682A2963C700738F4A /* Drawings & Magic */,
+				8AF3CB672A2963C000738F4A /* Simple Drawings */,
+				8AF3CB662A2963B200738F4A /* Animations */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		8AF3CB662A2963B200738F4A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
 				8AD6DD4C2A1C2E32008DA3AC /* AnimatableFractions.swift */,
-				8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */,
 				8AD6DD4E2A1C2F13008DA3AC /* AnimatableTypeWriter.swift */,
-				8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */,
-				8AD6DD522A1C34BE008DA3AC /* EaseInOutBack.swift */,
+				8AD6DD4A2A1B557C008DA3AC /* AnimatingFont.swift */,
+				8A9959812A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift */,
+				8AF3CB842A29648000738F4A /* AsymetricAnimatedView.swift */,
+				8AF3CB7F2A29648000738F4A /* ButtonTransitionAnimationView.swift */,
+				8AF3CB852A29648000738F4A /* CreditCardDrag.swift */,
+				8AD6DD522A1C34BE008DA3AC /* EaseInOutBackProject.swift */,
 				8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */,
-				8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */,
-				8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */,
-				8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */,
-				8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */,
-				8AF4D4072A27EC4E00B1837B /* LavaLampMathProject.swift */,
-				8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */,
-				8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */,
-				8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */,
-				8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */,
-				8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */,
-				8A9DCDB72A256B0200789B39 /* MasonryLayoutProject.swift */,
-				8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */,
-				8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */,
-				8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */,
+				8AF3CB802A29648000738F4A /* PresentationStyleAppearView.swift */,
+				8AF3CB822A29648000738F4A /* PulsingButtonProject.swift */,
+				8AF3CB812A29648000738F4A /* ScaleEffectButton.swift */,
+				8AF3CB832A29648000738F4A /* SnakeHelloWorldView.swift */,
 				8A99597F2A1B4C75000EE695 /* SportsCircleTransitions.swift */,
 				8AD6DD562A1D9936008DA3AC /* TwitterHeartAnimation.swift */,
 				8AD6DD542A1D923C008DA3AC /* WithMotionAnimation.swift */,
 			);
-			path = Projects;
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		8AF3CB672A2963C000738F4A /* Simple Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3CB6D2A29645D00738F4A /* ArcView.swift */,
+				8AF3CB722A29645D00738F4A /* ArrowView.swift */,
+				8AF3CB6B2A29645D00738F4A /* BlurView.swift */,
+				8AF3CB6C2A29645D00738F4A /* CheckerboardView.swift */,
+				8AF3CB6F2A29645D00738F4A /* ColorCyclingCircleView.swift */,
+				8AF3CB742A29645D00738F4A /* ColorCyclingRectangleView.swift */,
+				8AF3CB702A29645D00738F4A /* FlowerView.swift */,
+				8AF3CB712A29645D00738F4A /* ScreenBlenderView.swift */,
+				8AF3CB732A29645D00738F4A /* SpirographView.swift */,
+				8AF3CB6E2A29645D00738F4A /* TrapezoidView.swift */,
+			);
+			path = "Simple Drawings";
+			sourceTree = "<group>";
+		};
+		8AF3CB682A2963C700738F4A /* Drawings & Magic */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3CB602A2955D400738F4A /* BackgroundAnimationBlurProject.swift */,
+				8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */,
+				8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */,
+				8AF4D4072A27EC4E00B1837B /* LavaLampMathProject.swift */,
+				8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */,
+				8AF3CB622A29580B00738F4A /* SpriteKitProject.swift */,
+			);
+			path = "Drawings & Magic";
+			sourceTree = "<group>";
+		};
+		8AF3CB692A2963CC00738F4A /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DCDAE2A24070C00789B39 /* AdaptiveLayout.swift */,
+				8A9DCDB02A240DED00789B39 /* CustomRadialLayout.swift */,
+				8A9DCDB22A24135A00789B39 /* EqualWidthHStackProject.swift */,
+				8A9DCDB72A256B0200789B39 /* MasonryLayoutProject.swift */,
+				8A9DCDB52A25673B00789B39 /* RelativeLayoutProject.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		8AF3CB6A2A2963D200738F4A /* Global Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8AD6DD942A20B4FA008DA3AC /* AnchorPreferenceView.swift */,
+				8AD6DD7A2A1ED3B7008DA3AC /* OverrideEnvironment.swift */,
+				8AD6DD922A20B1D3008DA3AC /* PreferenceKeyView.swift */,
+				8AD6DD722A1EC53C008DA3AC /* RequiredText.swift */,
+				8AD6DD742A1EC7DE008DA3AC /* StrokeWidthShapes.swift */,
+				8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */,
+			);
+			path = "Global Settings";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD6DD532A1C34BE008DA3AC /* EaseInOutBack.swift in Sources */,
+				8AD6DD532A1C34BE008DA3AC /* EaseInOutBackProject.swift in Sources */,
 				8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */,
 				8AD6DD792A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift in Sources */,
+				8AF3CB882A29648000738F4A /* ScaleEffectButton.swift in Sources */,
 				8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */,
 				8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */,
 				8AD6DD572A1D9936008DA3AC /* TwitterHeartAnimation.swift in Sources */,
@@ -238,22 +330,38 @@
 				8AF3CB612A2955D400738F4A /* BackgroundAnimationBlurProject.swift in Sources */,
 				8AD6DD752A1EC7DE008DA3AC /* StrokeWidthShapes.swift in Sources */,
 				8AF3CB652A29627C00738F4A /* Projects.swift in Sources */,
+				8AF3CB7A2A29645D00738F4A /* FlowerView.swift in Sources */,
 				8AD6DD952A20B4FA008DA3AC /* AnchorPreferenceView.swift in Sources */,
 				8A9DCDB82A256B0200789B39 /* MasonryLayoutProject.swift in Sources */,
 				8A9DCDB32A24135A00789B39 /* EqualWidthHStackProject.swift in Sources */,
+				8AF3CB862A29648000738F4A /* ButtonTransitionAnimationView.swift in Sources */,
+				8AF3CB762A29645D00738F4A /* CheckerboardView.swift in Sources */,
+				8AF3CB7D2A29645D00738F4A /* SpirographView.swift in Sources */,
+				8AF3CB7B2A29645D00738F4A /* ScreenBlenderView.swift in Sources */,
+				8AF3CB8A2A29648000738F4A /* SnakeHelloWorldView.swift in Sources */,
+				8AF3CB792A29645D00738F4A /* ColorCyclingCircleView.swift in Sources */,
 				8AD6DD4B2A1B557C008DA3AC /* AnimatingFont.swift in Sources */,
+				8AF3CB892A29648000738F4A /* PulsingButtonProject.swift in Sources */,
 				8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */,
+				8AF3CB752A29645D00738F4A /* BlurView.swift in Sources */,
 				8A9DCDB62A25673B00789B39 /* RelativeLayoutProject.swift in Sources */,
+				8AF3CB872A29648000738F4A /* PresentationStyleAppearView.swift in Sources */,
+				8AF3CB8B2A29648000738F4A /* AsymetricAnimatedView.swift in Sources */,
 				8AD6DD512A1C338E008DA3AC /* EdgeBounce.swift in Sources */,
+				8AF3CB782A29645D00738F4A /* TrapezoidView.swift in Sources */,
+				8AF3CB8C2A29648000738F4A /* CreditCardDrag.swift in Sources */,
 				8AD6DD4D2A1C2E32008DA3AC /* AnimatableFractions.swift in Sources */,
 				8AF3CB632A29580B00738F4A /* SpriteKitProject.swift in Sources */,
 				8AD6DD7B2A1ED3B7008DA3AC /* OverrideEnvironment.swift in Sources */,
 				8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */,
+				8AF3CB772A29645D00738F4A /* ArcView.swift in Sources */,
 				8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */,
 				8AF4D4082A27EC4E00B1837B /* LavaLampMathProject.swift in Sources */,
+				8AF3CB7C2A29645D00738F4A /* ArrowView.swift in Sources */,
 				8AF4D4022A26AFC800B1837B /* GlowingParticlesProject.swift in Sources */,
 				8AF4D4042A27DFC500B1837B /* FallingSnowProject.swift in Sources */,
 				8AF4D4062A27DFD700B1837B /* LavaLampProject.swift in Sources */,
+				8AF3CB7E2A29645D00738F4A /* ColorCyclingRectangleView.swift in Sources */,
 				8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

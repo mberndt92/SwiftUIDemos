@@ -19,7 +19,7 @@ extension Animation {
     }
 }
 
-struct EaseInOutBack: View {
+struct EaseInOutBackProject: View {
     @State private var offset = -200.0
     
     var body: some View {
@@ -33,8 +33,8 @@ struct EaseInOutBack: View {
     }
 }
 
-struct EaseInOutBack_Previews: PreviewProvider {
+struct EaseInOutBackProject_Previews: PreviewProvider {
     static var previews: some View {
-        EaseInOutBack()
+        EaseInOutBackProject()
     }
 }
