@@ -56,6 +56,15 @@ struct ContentView: View {
                         }
                     }
                 }
+                
+                Section("Controlling Work") {
+                    ForEach(ControllingWorkProjects.allCases, id: \.self) { view in
+                        NavigationLink(view.rawValue) {
+                            view.view()
+                                .navigationTitle(view.rawValue)
+                        }
+                    }
+                }
             }
             .navigationTitle("Swift UI Projects")
         }

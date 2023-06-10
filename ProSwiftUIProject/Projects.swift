@@ -37,6 +37,7 @@ enum AnimationProjects: String, CaseIterable {
     case CreditCard = "Credit Card Drag"
     case EaseInOutBack = "Ease In Out Back"
     case EdgeBounceView = "Edge Bounce"
+    case NetflixAnimation = "Netflix Profile Selection Animation"
     case PresentationStyleAppear = "Presentation Style Appear (old school)"
     case PulsingButton = "Pulsing Button"
     case ScaleEffect = "Scale Effect"
@@ -57,6 +58,7 @@ enum AnimationProjects: String, CaseIterable {
         case .CreditCard: CreditCardDrag()
         case .EaseInOutBack: EaseInOutBackProject()
         case .EdgeBounceView: EdgeBounce()
+        case .NetflixAnimation: NetflixAnimationProject()
         case .PresentationStyleAppear: PresentationStyleAppearView()
         case .PulsingButton: PulsingButtonProject()
         case .ScaleEffect: ScaleEffectButton()
@@ -133,6 +135,21 @@ enum DrawingMagicProjects: String, CaseIterable {
         case .LavaLampMath: LavaLampMathProject()
         case .Spirograph: SpirographView()
         case .SpriteKit: SpriteKitProject()
+        }
+    }
+}
+
+enum ControllingWorkProjects: String, CaseIterable {
+    case DelayingWork = "Delaying Work"
+    case SkippingWork = "Skipping Work"
+    case WatchingForChanges = "Watching For Changes"
+    
+    @ViewBuilder
+    func view() -> some View {
+        switch self {
+        case .DelayingWork: DelayingWorkProject()
+        case .SkippingWork: SkippingWorkProject()
+        case .WatchingForChanges: WatchingForChangesProject()
         }
     }
 }

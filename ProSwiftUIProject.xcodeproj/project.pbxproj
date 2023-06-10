@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A300B502A34C6C6005ADD33 /* NetflixAnimationProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */; };
 		8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */; };
 		8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959732A1B4AD4000EE695 /* ContentView.swift */; };
 		8A9959762A1B4AD6000EE695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9959752A1B4AD6000EE695 /* Assets.xcassets */; };
@@ -51,6 +52,9 @@
 		8AF3CB8A2A29648000738F4A /* SnakeHelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB832A29648000738F4A /* SnakeHelloWorldView.swift */; };
 		8AF3CB8B2A29648000738F4A /* AsymetricAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB842A29648000738F4A /* AsymetricAnimatedView.swift */; };
 		8AF3CB8C2A29648000738F4A /* CreditCardDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB852A29648000738F4A /* CreditCardDrag.swift */; };
+		8AF3CB902A2AA5FD00738F4A /* DelayingWorkProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB8F2A2AA5FD00738F4A /* DelayingWorkProject.swift */; };
+		8AF3CB922A2AA98A00738F4A /* SkippingWorkProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB912A2AA98A00738F4A /* SkippingWorkProject.swift */; };
+		8AF3CB942A2AABCE00738F4A /* WatchingForChangesProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3CB932A2AABCE00738F4A /* WatchingForChangesProject.swift */; };
 		8AF4D4022A26AFC800B1837B /* GlowingParticlesProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */; };
 		8AF4D4042A27DFC500B1837B /* FallingSnowProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */; };
 		8AF4D4062A27DFD700B1837B /* LavaLampProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */; };
@@ -58,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixAnimationProject.swift; sourceTree = "<group>"; };
 		8A99596E2A1B4AD4000EE695 /* ProSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		8A9959732A1B4AD4000EE695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +108,9 @@
 		8AF3CB832A29648000738F4A /* SnakeHelloWorldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeHelloWorldView.swift; sourceTree = "<group>"; };
 		8AF3CB842A29648000738F4A /* AsymetricAnimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsymetricAnimatedView.swift; sourceTree = "<group>"; };
 		8AF3CB852A29648000738F4A /* CreditCardDrag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardDrag.swift; sourceTree = "<group>"; };
+		8AF3CB8F2A2AA5FD00738F4A /* DelayingWorkProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayingWorkProject.swift; sourceTree = "<group>"; };
+		8AF3CB912A2AA98A00738F4A /* SkippingWorkProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippingWorkProject.swift; sourceTree = "<group>"; };
+		8AF3CB932A2AABCE00738F4A /* WatchingForChangesProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchingForChangesProject.swift; sourceTree = "<group>"; };
 		8AF4D4012A26AFC800B1837B /* GlowingParticlesProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingParticlesProject.swift; sourceTree = "<group>"; };
 		8AF4D4032A27DFC500B1837B /* FallingSnowProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingSnowProject.swift; sourceTree = "<group>"; };
 		8AF4D4052A27DFD700B1837B /* LavaLampProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLampProject.swift; sourceTree = "<group>"; };
@@ -160,6 +168,7 @@
 		8A9DCDB42A24137400789B39 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				8AF3CB952A2AAF0C00738F4A /* Controlling Work */,
 				8AF3CB6A2A2963D200738F4A /* Global Settings */,
 				8AF3CB692A2963CC00738F4A /* Layouts */,
 				8AF3CB682A2963C700738F4A /* Drawings & Magic */,
@@ -181,6 +190,7 @@
 				8AF3CB852A29648000738F4A /* CreditCardDrag.swift */,
 				8AD6DD522A1C34BE008DA3AC /* EaseInOutBackProject.swift */,
 				8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */,
+				8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */,
 				8AF3CB802A29648000738F4A /* PresentationStyleAppearView.swift */,
 				8AF3CB822A29648000738F4A /* PulsingButtonProject.swift */,
 				8AF3CB812A29648000738F4A /* ScaleEffectButton.swift */,
@@ -245,6 +255,16 @@
 				8AD6DD782A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift */,
 			);
 			path = "Global Settings";
+			sourceTree = "<group>";
+		};
+		8AF3CB952A2AAF0C00738F4A /* Controlling Work */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3CB8F2A2AA5FD00738F4A /* DelayingWorkProject.swift */,
+				8AF3CB912A2AA98A00738F4A /* SkippingWorkProject.swift */,
+				8AF3CB932A2AABCE00738F4A /* WatchingForChangesProject.swift */,
+			);
+			path = "Controlling Work";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,10 +340,12 @@
 				8AD6DD532A1C34BE008DA3AC /* EaseInOutBackProject.swift in Sources */,
 				8AD6DD4F2A1C2F13008DA3AC /* AnimatableTypeWriter.swift in Sources */,
 				8AD6DD792A1ECFB1008DA3AC /* StrokeWidthShapesEnvObject.swift in Sources */,
+				8AF3CB922A2AA98A00738F4A /* SkippingWorkProject.swift in Sources */,
 				8AF3CB882A29648000738F4A /* ScaleEffectButton.swift in Sources */,
 				8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */,
 				8A9959802A1B4C75000EE695 /* SportsCircleTransitions.swift in Sources */,
 				8AD6DD572A1D9936008DA3AC /* TwitterHeartAnimation.swift in Sources */,
+				8AF3CB942A2AABCE00738F4A /* WatchingForChangesProject.swift in Sources */,
 				8AD6DD932A20B1D3008DA3AC /* PreferenceKeyView.swift in Sources */,
 				8AD6DD552A1D923C008DA3AC /* WithMotionAnimation.swift in Sources */,
 				8A9DCDB12A240DED00789B39 /* CustomRadialLayout.swift in Sources */,
@@ -344,6 +366,7 @@
 				8AF3CB892A29648000738F4A /* PulsingButtonProject.swift in Sources */,
 				8AD6DD732A1EC53C008DA3AC /* RequiredText.swift in Sources */,
 				8AF3CB752A29645D00738F4A /* BlurView.swift in Sources */,
+				8AF3CB902A2AA5FD00738F4A /* DelayingWorkProject.swift in Sources */,
 				8A9DCDB62A25673B00789B39 /* RelativeLayoutProject.swift in Sources */,
 				8AF3CB872A29648000738F4A /* PresentationStyleAppearView.swift in Sources */,
 				8AF3CB8B2A29648000738F4A /* AsymetricAnimatedView.swift in Sources */,
@@ -363,6 +386,7 @@
 				8AF4D4062A27DFD700B1837B /* LavaLampProject.swift in Sources */,
 				8AF3CB7E2A29645D00738F4A /* ColorCyclingRectangleView.swift in Sources */,
 				8A9959822A1B4E7F000EE695 /* AnimatingTheUnanimatable.swift in Sources */,
+				8A300B502A34C6C6005ADD33 /* NetflixAnimationProject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +523,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,6 +553,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
