@@ -1,35 +1,13 @@
 //
-//  NetflixAnimationProject.swift
+//  NetflixAnimationProjectKeyFrames.swift
 //  ProSwiftUIProject
 //
-//  Created by Maximilian Berndt on 10.06.23.
+//  Created by Maximilian Berndt on 11.06.23.
 //
 
 import SwiftUI
 
-struct Account {
-    let name: String
-    let icon: String
-    let background: Color
-}
-
-extension Account {
-    static var examples: [Account] = [
-        Account(name: "Brisa", icon: "figure.wave", background: .cyan),
-        Account(name: "Hermana", icon: "figure.walk", background: .green),
-        Account(name: "Doníris", icon: "figure.fall", background: .orange),
-        Account(name: "Lunchio", icon: "figure.run", background: .mint),
-        Account(name: "Zévitu", icon: "figure.roll", background: .yellow)
-    ]
-}
-
-extension Account: Equatable {
-    static func ==(lhs: Account, rhs: Account) -> Bool {
-        return lhs.name == rhs.name
-    }
-}
-
-struct NetflixAnimationProject: View {
+struct NetflixAnimationProjectKeyFrames: View {
     
     let columns = [
         GridItem(.adaptive(minimum: 90))
@@ -41,6 +19,7 @@ struct NetflixAnimationProject: View {
     
     var accounts: [Account] = Account.examples
     
+    @State private var startKeyframeAnimation = false
     @State private var selectedProfile: Account? = nil
     @State private var frameWidth = 80.0
     
@@ -64,16 +43,6 @@ struct NetflixAnimationProject: View {
                                     .font(.headline)
                             }
                             .frame(width: frameWidth, height: frameWidth)
-                            .transaction {
-                                $0.addAnimationCompletion {
-                                    withAnimation(.easeIn(duration: 0.5).delay(0.75)) {
-                                        xOffset = proxy.frame(in: .local).midX * 0.5
-                                        yOffset = -proxy.size.height
-                                        scale = 0.3
-                                        // Need to change this to keyframes to also scale it down on the go
-                                    }
-                                }
-                            }
                             .padding()
                             .background(account.background)
                             .clipShape(RoundedRectangle(cornerRadius: 25))
@@ -92,6 +61,24 @@ struct NetflixAnimationProject: View {
                                 }
                                 
                             }
+                            .keyframeAnimator(initialValue: KeyFrame(), trigger: startKeyframeAnimation) { view, frame in
+                                view
+                                    .scaleEffect(frame.scale)
+                                    .offset(x: frame.offsetX, y: frame.offsetY)
+                            } keyframes: { frame in
+                                KeyframeTrack(\.scale) {
+                                    
+                                }
+                                
+                                KeyframeTrack(\.offsetX) {
+                                    
+                                }
+                                
+                                KeyframeTrack(\.offsetY) {
+                                    
+                                }
+                            }
+                            
                         }
                     }
                 }
@@ -106,8 +93,14 @@ struct NetflixAnimationProject: View {
         // It then "swooshes" up to the top right and outside of the view
         // Kind of attempted to look natural then the toolbar icon appears with the curved backwards move towards its final position.
     }
+    
+    struct KeyFrame {
+        var scale = 1.0
+        var offsetX = 0.0
+        var offsetY = 0.0
+    }
 }
 
 #Preview {
-    NetflixAnimationProject()
+    NetflixAnimationProjectKeyFrames()
 }
