@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct Account {
+struct Account: Identifiable {
+    var id = UUID()
     let name: String
     let icon: String
     let background: Color
@@ -55,28 +56,7 @@ struct NetflixAnimationProject: View {
                 LazyVGrid(columns: selectedProfile == nil ? columns : singleColumn, alignment: .center, spacing: 20) {
                     ForEach(accounts, id: \.name) { account in
                         if selectedProfile == nil || selectedProfile == account {
-                            VStack {
-                                Image(systemName: account.icon)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(maxHeight: 50)
-                                Text(account.name)
-                                    .font(.headline)
-                            }
-                            .frame(width: frameWidth, height: frameWidth)
-                            .transaction {
-                                $0.addAnimationCompletion {
-                                    withAnimation(.easeIn(duration: 0.5).delay(0.75)) {
-                                        xOffset = proxy.frame(in: .local).midX * 0.5
-                                        yOffset = -proxy.size.height
-                                        scale = 0.3
-                                        // Need to change this to keyframes to also scale it down on the go
-                                    }
-                                }
-                            }
-                            .padding()
-                            .background(account.background)
-                            .clipShape(RoundedRectangle(cornerRadius: 25))
+                            ProfileIconView(frameWidth: frameWidth, account: account)
                             .offset(x: xOffset, y: yOffset)
                             .scaleEffect(scale)
                             .onTapGesture {
@@ -92,19 +72,22 @@ struct NetflixAnimationProject: View {
                                 }
                                 
                             }
+                            .transaction {
+                                $0.addAnimationCompletion {
+                                    withAnimation(.bouncy(duration: 1).delay(0.75)) {
+                                        scale = 0.3 // this conflicts with the offset, leading to magic numbers being added
+                                        xOffset = proxy.frame(in: .local).midX * 2.2 // magic number
+                                        yOffset = -proxy.frame(in: .local).maxY * 1.6 // magic number
+                                    }
+                                }
+                            }
                         }
                     }
                 }
                 .padding(.horizontal)
                 .position(x: proxy.frame(in: .local).midX, y: proxy.frame(in: .local).midY)
-                
             }
         }
-        
-        // We have some profiles to begin with
-        // On selection, the selected one becomes the only visible one, centered & enlarged
-        // It then "swooshes" up to the top right and outside of the view
-        // Kind of attempted to look natural then the toolbar icon appears with the curved backwards move towards its final position.
     }
 }
 

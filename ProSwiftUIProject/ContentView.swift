@@ -17,6 +17,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }
@@ -26,6 +27,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }
@@ -35,6 +37,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }
@@ -44,6 +47,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }
@@ -53,6 +57,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }
@@ -62,6 +67,7 @@ struct ContentView: View {
                         NavigationLink(view.rawValue) {
                             view.view()
                                 .navigationTitle(view.rawValue)
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     }
                 }

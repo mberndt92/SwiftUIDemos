@@ -38,6 +38,7 @@ enum AnimationProjects: String, CaseIterable {
     case EaseInOutBack = "Ease In Out Back"
     case EdgeBounceView = "Edge Bounce"
     case NetflixAnimation = "Netflix Profile Selection Animation"
+    case NetflixAnimationKeyFrame = "Netflix Profile Selection Animation (KeyFrame)"
     case PresentationStyleAppear = "Presentation Style Appear (old school)"
     case PulsingButton = "Pulsing Button"
     case ScaleEffect = "Scale Effect"
@@ -59,6 +60,7 @@ enum AnimationProjects: String, CaseIterable {
         case .EaseInOutBack: EaseInOutBackProject()
         case .EdgeBounceView: EdgeBounce()
         case .NetflixAnimation: NetflixAnimationProject()
+        case .NetflixAnimationKeyFrame: NetflixAnimationProjectKeyFrames()
         case .PresentationStyleAppear: PresentationStyleAppearView()
         case .PulsingButton: PulsingButtonProject()
         case .ScaleEffect: ScaleEffectButton()
