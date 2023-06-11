@@ -37,6 +37,7 @@ enum AnimationProjects: String, CaseIterable {
     case CreditCard = "Credit Card Drag"
     case EaseInOutBack = "Ease In Out Back"
     case EdgeBounceView = "Edge Bounce"
+    case JumpAndShake = "Bounce and Shake"
     case NetflixAnimation = "Netflix Profile Selection Animation"
     case NetflixAnimationKeyFrame = "Netflix Profile Selection Animation (KeyFrame)"
     case PresentationStyleAppear = "Presentation Style Appear (old school)"
@@ -59,6 +60,7 @@ enum AnimationProjects: String, CaseIterable {
         case .CreditCard: CreditCardDrag()
         case .EaseInOutBack: EaseInOutBackProject()
         case .EdgeBounceView: EdgeBounce()
+        case .JumpAndShake: JumpAndShakeProject()
         case .NetflixAnimation: NetflixAnimationProject()
         case .NetflixAnimationKeyFrame: NetflixAnimationProjectKeyFrames()
         case .PresentationStyleAppear: PresentationStyleAppearView()

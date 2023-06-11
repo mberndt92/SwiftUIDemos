@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A300B502A34C6C6005ADD33 /* NetflixAnimationProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */; };
 		8A300B522A353B65005ADD33 /* NetflixAnimationProjectKeyFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A300B512A353B65005ADD33 /* NetflixAnimationProjectKeyFrames.swift */; };
+		8A300B632A3574CE005ADD33 /* JumpAndShakeProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A300B622A3574CE005ADD33 /* JumpAndShakeProject.swift */; };
 		8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */; };
 		8A9959742A1B4AD4000EE695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9959732A1B4AD4000EE695 /* ContentView.swift */; };
 		8A9959762A1B4AD6000EE695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9959752A1B4AD6000EE695 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixAnimationProject.swift; sourceTree = "<group>"; };
 		8A300B512A353B65005ADD33 /* NetflixAnimationProjectKeyFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixAnimationProjectKeyFrames.swift; sourceTree = "<group>"; };
+		8A300B622A3574CE005ADD33 /* JumpAndShakeProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpAndShakeProject.swift; sourceTree = "<group>"; };
 		8A99596E2A1B4AD4000EE695 /* ProSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9959712A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		8A9959732A1B4AD4000EE695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				8AD6DD522A1C34BE008DA3AC /* EaseInOutBackProject.swift */,
 				8AD6DD502A1C338E008DA3AC /* EdgeBounce.swift */,
 				8A300B4F2A34C6C6005ADD33 /* NetflixAnimationProject.swift */,
+				8A300B622A3574CE005ADD33 /* JumpAndShakeProject.swift */,
 				8A300B512A353B65005ADD33 /* NetflixAnimationProjectKeyFrames.swift */,
 				8AF3CB802A29648000738F4A /* PresentationStyleAppearView.swift */,
 				8AF3CB822A29648000738F4A /* PulsingButtonProject.swift */,
@@ -382,6 +385,7 @@
 				8A9DCDAF2A24070C00789B39 /* AdaptiveLayout.swift in Sources */,
 				8AF3CB772A29645D00738F4A /* ArcView.swift in Sources */,
 				8A9959722A1B4AD4000EE695 /* ProSwiftUIProjectApp.swift in Sources */,
+				8A300B632A3574CE005ADD33 /* JumpAndShakeProject.swift in Sources */,
 				8AF4D4082A27EC4E00B1837B /* LavaLampMathProject.swift in Sources */,
 				8A300B522A353B65005ADD33 /* NetflixAnimationProjectKeyFrames.swift in Sources */,
 				8AF3CB7C2A29645D00738F4A /* ArrowView.swift in Sources */,
